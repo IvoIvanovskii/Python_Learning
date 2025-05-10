@@ -1,7 +1,7 @@
 # print("Hello World!")
 # print ("Enter your name: ")
 
-x = 1
+x = 2
 y = 5
 # z = input()
  
