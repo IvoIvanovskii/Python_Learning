@@ -11,9 +11,9 @@ def Calculator(x,y, operation):
     else:
         return "Invalid operation"
     
-    a = int(input("Enter the first number: "))
-    b  = int(input("Enter the second number: "))
-    op = input("Enter the wanted operation (+, -, *, /)")
-    result = Calculator(a, b , op)
-    print(f"Result: {result} ")
+a = int(input("Enter the first number: "))
+b  = int(input("Enter the second number: "))
+op = input("Enter the wanted operation (+, -, *, /)")
+result = Calculator(a, b , op)
+print(f"Result: {result} ")
     
