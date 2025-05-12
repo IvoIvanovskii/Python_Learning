@@ -28,3 +28,9 @@ print("..............................")
 for i in range (0,50):
     if i % 2 != 0:
         print(i)
+
+#While ciklusi
+i = 1
+while i <=10:
+    print(i)
+    i+=1
