@@ -23,8 +23,16 @@ else:
 
 #Primer Funkcii
 
-def suma(a,b):
-    return a+b
+# def suma(a,b):
+#     return a+b
 
-print(suma(10,12))
+# print(suma(10,12))
+
+#Da se kalkulira zbirot na site borevi od 1 do 100
+
+sum = 1
+for i in range(1,101):
+    sum*=i
+
+print(sum)
 
