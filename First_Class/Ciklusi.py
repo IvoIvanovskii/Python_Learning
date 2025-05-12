@@ -31,13 +31,13 @@ for i in range (0,50):
 
 #While ciklusi
 i = 1
-while i <=10:
+while i <= 10:
     print(i)
     i+=1
 
 i = 1
 while 1 <= 10:
     print(i)
-    if i == 0:
+    if i == 6:
         break
     i+=1
