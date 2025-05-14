@@ -104,3 +104,29 @@
 
 #-----------------------------------------------------------------------------------------------------------------
 
+# ZADACA 6
+# da se napisi kalkulator so  koja kje chita operator i dva broja
+
+def Calculator(x, y, op):
+
+    if op == "+":
+        return x + y
+    elif op == "-":
+        return x - y
+    elif op == "*":
+        return x * y
+    elif op == "/":
+        return x / y
+    elif op == "%":
+        return x % y
+    elif op == "**":
+        return x ** y
+    else:
+        return "Imate vneseno ne postechki operator"
+    
+
+n1 = int(input("Vnesi go prviot broj: "))
+n2 = int(input("Vnesi go vtoriot broj: "))
+op = input("Vnesi operator: ")
+
+print(Calculator(n1, n2, op))
