@@ -4,4 +4,3 @@ def Faktoriel(n):
         sum = sum * i
     return sum
 
-print(Faktoriel(5))
