@@ -5,9 +5,11 @@
 
 zborovi = ["ana", "level", "python", "radar", "code"]
 
-palindromi = []
-for zbor in zborovi:
-    if zbor == zbor[::-1]:
-        palindromi.append(zbor)
-
+palindromi = [ zbor for zbor in zborovi if zbor == zbor[::-1]]
 print("Зборовите кои се палиндроми се:", palindromi)
+
+# for zbor in zborovi:
+#     if zbor == zbor[::-1]:
+#         palindromi.append(zbor)
+
+# print("Зборовите кои се палиндроми се:", palindromi)

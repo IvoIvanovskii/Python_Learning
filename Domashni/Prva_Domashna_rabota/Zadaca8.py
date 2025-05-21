@@ -4,10 +4,15 @@
 # (Користи while loop)
 
 sum = 0
+count = 0
+
 while True:
     num = int(input("Внесете број (-1 за крај): "))
     if num == -1:
         break
+    count += 1
     sum += num
-
-print(f"Просекот на внесените броеви е: {sum / 2}")
+    
+print(count)
+print (sum)
+print(sum / count)

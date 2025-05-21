@@ -4,12 +4,15 @@
 # го соодветниот ден од неделата.
 
 number = int(input("Внесете број од 1 до 7: "))
-lista_Denovi = ["Ponedelnik" , "Vtornik", "Sreda", "Chetvrtok", "Petok", "Sabota", "Nedela"]
+lista_Denovi = ["Ponedelnik", "Vtornik", "Sreda", "Chetvrtok", "Petok", "Sabota", "Nedela"]
 
 if 1 <= number <= 7:
     print(lista_Denovi[number-1])
 else:
     print("Izbravte nepostechki broj")
+
+# den = lambda n: lista_Denovi[number-1] if 1 <= number <= 7 else "Izbravte nepostoechki broj"
+# print(den(number))
 
 
 
