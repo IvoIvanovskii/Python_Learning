@@ -5,7 +5,7 @@
 
 list = [9, 15, 95, 58, 195, 38, 29, 22]
 
-for num in list:
+for  num in list:
     if num > 50:
         index = list.index(num)
         list[index] = "голем"
