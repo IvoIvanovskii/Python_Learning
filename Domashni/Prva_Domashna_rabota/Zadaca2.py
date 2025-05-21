@@ -10,5 +10,5 @@ def Fibonachi(n):
         x, y = y, y+x
         
 
-num = int(input("Внесете број: "))
+num = int(input("Vnesete broj: "))
 Fibonachi(num)
