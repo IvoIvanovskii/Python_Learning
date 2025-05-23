@@ -48,3 +48,6 @@ else:
     print("Operacijata e uspeshno zavrshena")
 finally: 
     print()
+
+f = open("test.txt")
+print(f.read())
