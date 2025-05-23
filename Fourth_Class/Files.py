@@ -36,18 +36,18 @@ except ZeroDivisionError:
 # Da se vnesi int, i toj int da se deli od 10
 # da se hadnle sluchaite na vnesuvanje razlichni vrednosti od int ili 0
 
-try:
-    x = int(input("Vnesi eden broj: "))
-    res = 10 / x
-    print(res)
-except ValueError:
-    print("Nemate vneseno validen broj")
-except ZeroDivisionError:
-    print ("Vnesete broj pogolem od 0")
-else:
-    print("Operacijata e uspeshno zavrshena")
-finally: 
-    print()
+# try:
+#     x = int(input("Vnesi eden broj: "))
+#     res = 10 / x
+#     print(res)
+# except ValueError:
+#     print("Nemate vneseno validen broj")
+# except ZeroDivisionError:
+#     print ("Vnesete broj pogolem od 0")
+# else:
+#     print("Operacijata e uspeshno zavrshena")
+# finally: 
+#     print()
 
-f = open("test.txt")
+f = open("test")
 print(f.read())
