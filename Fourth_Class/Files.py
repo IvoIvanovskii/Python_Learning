@@ -49,5 +49,5 @@ except ZeroDivisionError:
 # finally: 
 #     print()
 
-f = open("test")
+f = open("C:\\Users\\ivoiv\\OneDrive\\Desktop\\Python\\Fourth_Class\\test.txt")
 print(f.read())
