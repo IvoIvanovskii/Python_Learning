@@ -40,9 +40,11 @@ try:
     x = int(input("Vnesi eden broj: "))
     res = 10 / x
     print(res)
-
 except ValueError:
-    print("Nemate vneseno broj")
-    
+    print("Nemate vneseno validen broj")
 except ZeroDivisionError:
     print ("Vnesete broj pogolem od 0")
+else:
+    print("Operacijata e uspeshno zavrshena")
+finally: 
+    print()
