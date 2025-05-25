@@ -49,6 +49,16 @@
 # finally: 
 #     print()
 
-f = open("C:\\Users\\ivoiv\\OneDrive\\Desktop\\Python\\Fourth_Class\\test.txt")
-print(f.read())
-f.close()
+# f = open("C:\\Users\\ivoiv\\OneDrive\\Desktop\\Python\\Fourth_Class\\test.txt")
+
+# print(f.read(2))
+
+# f = open("C:\\Users\\ivoiv\\OneDrive\\Desktop\\Python\\Fourth_Class\\test.txt", "r")
+# print(f.read())
+
+# f = open("C:\\Users\\ivoiv\\OneDrive\\Desktop\\Python\\Fourth_Class\\test.txt", "w")
+# f.write("Vnesen e nov tekst")
+
+with open("test.txt", "a") as f:
+    f.write("Dodaden tekst so append preku with")
+    f.write("123")
