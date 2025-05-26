@@ -7,7 +7,7 @@
 
 
 
-with open(r"c:\Users\ivoiv\OneDrive\Desktop\Python\Domashni\Vtora_Domashna\info.txt", "r", encoding="utf-8") as file:
+with open(r"C:\\Users\\ivoiv\\OneDrive\\Desktop\\Python\Domashni\\Vtora_Domashna", "r") as file:
 
     lines = file.readlines()
     print(lines)
