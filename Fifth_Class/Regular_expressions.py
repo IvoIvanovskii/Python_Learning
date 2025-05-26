@@ -28,7 +28,11 @@ print(match)
 print(match.group())
 
 text5 = "Alice and Bob went to New Yourk"
-pattern6 = r"\b[A-Z][a-zA-Z]*\xb"
+pattern6 = r"\b[A-Z][a-zA-Z]*\b"
 match = re.findall(pattern6, text5)
 print(match)
 
+text6 = "apples, pineapples, strawberry, banana"
+pattern7 = r"[a-z]+"
+match = re.findall(pattern7, text6)
+print(match)
