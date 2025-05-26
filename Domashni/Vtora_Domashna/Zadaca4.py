@@ -6,4 +6,11 @@
 
 # да се избројат колку редици се во филот.
 
-open(info.txt, "r")
+import os
+print(os.getcwd())
+
+with open("info.txt", "r") as file:
+
+    lines = file.readlines()
+    print(lines)
+
