@@ -41,8 +41,6 @@ print(employees)
 
 print("-------------------------------------------------------------------------------------")
 
-
-
-
-
+employees = [(name, salary * 0.9) if salary >= 50000 else (name, salary) for name, salary in employees ] 
+print (employees)
 
