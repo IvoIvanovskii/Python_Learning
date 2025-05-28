@@ -60,3 +60,55 @@ correlation = df[['Cost', 'Retail_Price']].corr()
 print(correlation)
 print("--------------------------------------------------------------------------------------------")
 
+
+Ime = ["Ana", "Angela", "Tea", "Stefan"]
+Prezime = ["Markov", "Markovska", "Stoilkova", "Mirchevski"]
+poeni = [90, 48, 50, 83]
+
+dict={"ime":Ime, "prezime":Prezime, "poeni":poeni}
+
+df = pd.DataFrame(dict)
+print(df)
+df.to_csv('ucenici.csv', index=False, header=True )
+
+df1 = df.query('poeni > 60 and prezime=="Markov"')
+
+print(df1)
+
+print("--------------------------------------------------------------------------------------------")
+print("--------------------------------------------------------------------------------------------")
+print("--------------------------------------------------------------------------------------------")
+print("--------------------------------------------------------------------------------------------")
+print("--------------------------------------------------------------------------------------------")
+
+
+
+
+dictionary={
+
+    "Ime" : ["Ana", "Angela", "Tea", "Stefan"],
+    "Prezime" : ["Markov", "Markovska", "Stoilkova", "Mirchevski"],
+    "department " : ["IT", "HR", "HR", "IT"],
+    "e-mail" : ["ana@gmail.com", "Angela@gmail.com", "SOilkova@gmail.com", "Mirchesvski@gmail.com"], 
+    "vozrast" : [19,22,25,35]
+
+}
+
+print(dictionary)
+
+print("--------------------------------------------------------------------------------------------")
+
+df = pd.DataFrame(dictionary)
+print(df)
+
+#Da se isprinta vo df site vraboteni vo IT
+
+df1 = df[df['department '] == "IT"]
+print(df1)
+
+#Da se najde sredna vrednost na godini po department
+
+
+
+df2 = df.groupby('department ')['vozrast'].mean()
+print(df2)
