@@ -33,18 +33,28 @@ print("-------------------------------------------------------------------------
 
 
 
-x = np.array([1,5,10])
-y = np.array([2,7,9])
+# x = np.array([1,5,10])
+# y = np.array([2,7,9])
+
+# plt.plot(x,y)
+# plt.show()
+
+# x = np.array([1,5,10])
+# y = np.array([2,7,9])
+
+# plt.plot(x,y, "o")
+# plt.show()
+
+# y = np.array([2,3,6,9,15,12])
+# plt.plot(y, marker=".")
+# plt.show()
+
+x = np.array([2,3,5,10,20])
+y = np.array([3,6,9,19,30])
+
+plt.title("Vizuelizacija na podatocite na x i y oska preku matplotlib vo Python")
+plt.xlabel("X")
+plt.ylabel("Y")
 
 plt.plot(x,y)
-plt.show()
-
-x = np.array([1,5,10])
-y = np.array([2,7,9])
-
-plt.plot(x,y, "o")
-plt.show()
-
-y = np.array([2,3,6,9,15,12])
-plt.plot(y)
 plt.show()
