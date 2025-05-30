@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 a = np.array([1, 2, 3, 4, 10])
 print(a)
@@ -30,3 +31,20 @@ print(np.shape(b))
 
 print("---------------------------------------------------------------------------------")
 
+
+
+x = np.array([1,5,10])
+y = np.array([2,7,9])
+
+plt.plot(x,y)
+plt.show()
+
+x = np.array([1,5,10])
+y = np.array([2,7,9])
+
+plt.plot(x,y, "o")
+plt.show()
+
+y = np.array([2,3,6,9,15,12])
+plt.plot(y)
+plt.show()
