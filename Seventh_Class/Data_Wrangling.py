@@ -58,3 +58,18 @@ plt.ylabel("Y")
 
 plt.plot(x,y)
 plt.show()
+
+sizes = np.array([9,3,1,15,20,25])
+x = np.array([2,3,5,10,20,25])
+y = np.array([3,6,9,19,30,35])
+
+plt.scatter(x,y, s=sizes)
+
+x = np.array([1,5,7,8,23,32])
+y = np.array([2,4,9,15,21,22])
+
+plt.scatter(x,y, s=sizes)
+plt.show()
+
+
+
